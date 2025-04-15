@@ -6,7 +6,7 @@ import HomePage from '../pages/homePage.vue'
 import ProductList from '../pages/productList.vue'
 import ProductDetail from '../pages/productDetail.vue'
 import OrderConfirmation from '../pages/orderConfirmation.vue'
-import QuoteHistory from '../pages/quoteHistory.vue'
+import QuoteHistory from '../pages/qoutesHistory.vue'
 
 
 const routes = [{
