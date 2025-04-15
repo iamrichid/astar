@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <router-view />
+    <SplashScreen v-if="showSplash" />
+    <router-view v-else />
   </div>
 </template>
 
@@ -17,13 +18,6 @@ onMounted(() => {
 })
 
 </script>
-
-<template>
-  <div>
-    <SplashScreen v-if="showSplash" />
-    <router-view v-else />
-  </div>
-</template>
 
 <style>
 /* Global styles if necessary */
