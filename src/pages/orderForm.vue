@@ -20,8 +20,32 @@
     email: '',
     message: '',
   })
+
+  localStorage.setItem('last_quote', JSON.stringify({
+  product: form.product,
+  quantity: form.quantity,
+  name: form.name,
+  email: form.email
+}))
   
   const submit = () => {
+    const quoteData = {
+    product: form.product,
+    quantity: form.quantity,
+    name: form.name,
+    email: form.email,
+    submittedAt: new Date().toLocaleString()
+  }
+
+      // Save the last quote for confirmation page
+    localStorage.setItem('last_quote', JSON.stringify(quoteData))
+
+  // Save all quotes
+  const existingQuotes = JSON.parse(localStorage.getItem('quotes') || '[]')
+  existingQuotes.push(quoteData)
+  localStorage.setItem('quotes', JSON.stringify(existingQuotes))
+
+
     console.log('Order submitted:', { ...form, product: props.product })
     router.push('/confirmation')
   }
