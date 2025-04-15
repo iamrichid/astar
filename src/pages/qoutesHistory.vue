@@ -23,9 +23,10 @@
   const quotes = ref([])
   
   onMounted(() => {
-    const saved = localStorage.getItem('quotes')
+    const saved = localStorage.getItem('quotes') // 🔥 key should match where you're saving all quotes
     if (saved) {
       quotes.value = JSON.parse(saved)
+      console.log('Loaded quotes:', quotes.value)
     }
   })
   </script>

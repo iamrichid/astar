@@ -25,10 +25,26 @@ const router = useRouter()
   })
 
 const submitQuote = () => {
-  // Imagine your form logic runs here
-  // Save the quote or mimic submission
+    const quoteData = {
+            product: props.product,
+            name: form.name,
+            email: form.email,
+            message: form.message,
+            submittedAt: new Date().toLocaleString()
+}
+
+// Save this quote as the "last_quote"
+localStorage.setItem('last_quote', JSON.stringify(quoteData))
+
+// Append to all quotes
+const existingQuotes = JSON.parse(localStorage.getItem('quotes') || '[]')
+existingQuotes.push(quoteData)
+localStorage.setItem('quotes', JSON.stringify(existingQuotes))
+
+
   console.log('Order submitted:', { ...form, product: props.product })
   toast.success("Quote submitted! We'll get back to you shortly.")
+
 
   // Optionally redirect after toast
   router.push('/confirmation')
