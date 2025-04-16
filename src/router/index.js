@@ -7,6 +7,7 @@ import ProductList from '../pages/productList.vue'
 import ProductDetail from '../pages/productDetail.vue'
 import OrderConfirmation from '../pages/orderConfirmation.vue'
 import QuoteHistory from '../pages/qoutesHistory.vue'
+import Diaspora from '../pages/africaDiaspora.vue'
 import AppLayout from '../layouts/AppLayout.vue'
 
 
@@ -37,6 +38,11 @@ const routes = [{
             path: 'quotes',
             name: 'Quotes',
             component: QuoteHistory
+        } ,
+        {
+            path: 'africa-diaspora',
+            name: 'africa-diaspora',
+            component: Diaspora
         }
     ]
 }]
