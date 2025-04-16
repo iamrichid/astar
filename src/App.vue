@@ -14,7 +14,7 @@ const showSplash = ref(true)
 onMounted(() => {
   setTimeout(() => {
     showSplash.value = false
-  }, 2000)
+  }, 6000)
 })
 
 </script>
