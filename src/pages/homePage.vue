@@ -73,7 +73,7 @@
             Access Africa Home & Abroad (AAHA)
           </h1>
           <p class=" text-left  text-base capitalize text-white">
-            A non-profit organization focused on supporting the African diaspora. We advocate for the Right of Return, ensuring that people of African descent have the opportunity to reconnect with their heritage. Our work includes lobbying for policies that recognize and facilitate the return of diasporas to their ancestral homes.
+            AAHA is dedicated to helping individuals pursue opportunities abroad, whether for work, education, or specialized training. Our primary focus is on providing assistance to those aiming to travel to the UK, US, or Canada. We handle everything from visa applications to securing employment or school placements, ensuring a hassle-free journey.
           </p>
         </div>
       </div>
