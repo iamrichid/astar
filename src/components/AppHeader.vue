@@ -7,7 +7,7 @@
         <router-link to="/">
         <span class="flex items-center">
             <img :src="logo"  class="w-10 h-10" >
-        <small class="sm:6/6 text-bold font-sans">Astar Trading & Agro <br> Processing Company Limited</small>
+        <small class="sm:6/6 text-bold font-sans">Ezac Group<br> Home at Heart</small>
       </span>
     </router-link>
         <nav class="space-x-4">
@@ -19,6 +19,6 @@
   </template>
   
   <script setup>
- import logo from '../assets/logo.webp'
+ import logo from '../assets/Business Emblem with Ghanaian Identity.png'
  </script>
   
