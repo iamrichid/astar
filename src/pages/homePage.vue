@@ -44,7 +44,6 @@
           <p class=" text-left  text-base capitalize text-white">
             A non-profit organization focused on supporting the African diaspora. We advocate for the Right of Return, ensuring that people of African descent have the opportunity to reconnect with their heritage. Our work includes lobbying for policies that recognize and facilitate the return of diasporas to their ancestral homes.
           </p>
-          <a class="no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-default/40 data-[hover=true]:opacity-hover text-white md:w-1/4" href="/african-diaspora-126-plus" tabindex="0" role="button">Read More ...</a>
         </div>
       </div>
   
@@ -54,7 +53,7 @@
       </span>
   
       <!-- Quotes Status Link -->
-      <router-link to="/quotes" class="relative col-span-1 flex aspect-square flex-col justify-end space-y-2 rounded-2xl bg-black p-4 text-base text-white">
+      <router-link to="#" class="relative col-span-1 flex aspect-square flex-col justify-end space-y-2 rounded-2xl bg-black p-4 text-base text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right absolute right-3 top-3 text-white">
           <path d="M7 7h10v10"></path><path d="M7 17 17 7"></path>
         </svg>
@@ -76,7 +75,6 @@
           <p class=" text-left  text-base capitalize text-white">
             A non-profit organization focused on supporting the African diaspora. We advocate for the Right of Return, ensuring that people of African descent have the opportunity to reconnect with their heritage. Our work includes lobbying for policies that recognize and facilitate the return of diasporas to their ancestral homes.
           </p>
-          <a class="no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent data-[pressed=true]:scale-[0.97] outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-4 min-w-20 h-10 text-small gap-2 rounded-medium [&amp;>svg]:max-w-[theme(spacing.8)] transition-transform-colors-opacity motion-reduce:transition-none bg-default/40 data-[hover=true]:opacity-hover text-white md:w-1/4" href="/african-diaspora-126-plus" tabindex="0" role="button">Read More ...</a>
         </div>
       </div>
 
