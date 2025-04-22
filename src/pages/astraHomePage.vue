@@ -228,7 +228,7 @@ import 'swiper/css'
       { 
          name: 'Maize', 
          description: 'A staple crop with great demand across the region.', 
-         image: '/public/maize.jpg', 
+         image: '../assets/maize.jpg', 
          tradeLink: '/commodity/maize' 
       },
       { 
