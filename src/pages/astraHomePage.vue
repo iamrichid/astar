@@ -109,6 +109,113 @@
       </swiper>
     </section>
 
+    <section class=" bg-white">
+      <div class="">
+         <h2 class="text-2xl font-bold mb-4">Key Commodities & Sectors</h2>
+         
+         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <!-- Agriculture Card -->
+            <div class="bg-green-50 border border-green-200 rounded-2xl p-6 shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">🌽</div>
+            <h3 class="text-xl font-semibold">Agriculture</h3>
+            <p class="text-gray-600 mt-2">Grains, pulses, cash crops, and fresh produce across Africa.</p>
+            </div>
+
+            <!-- Minerals Card -->
+            <div class="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">⛏️</div>
+            <h3 class="text-xl font-semibold">Minerals</h3>
+            <p class="text-gray-600 mt-2">Gold, bauxite, lithium, and other valuable mineral exports.</p>
+            </div>
+
+            <!-- Energy Card -->
+            <div class="bg-blue-50 border border-blue-200 rounded-2xl p-6 shadow hover:shadow-lg transition">
+            <div class="text-4xl mb-4">🔋</div>
+            <h3 class="text-xl font-semibold">Energy</h3>
+            <p class="text-gray-600 mt-2">Crude oil, natural gas, biomass, and emerging clean energy.</p>
+            </div>
+         </div>
+
+         <!-- CTA Button -->
+         <a href="#marketplace" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-xl transition">
+            See What's Trading Now
+         </a>
+      </div>
+      </section>
+
+
+      <section class="py-16 bg-gray-50">
+  <div class=" mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-6">Why Choose Us?</h2>
+    <p class="text-gray-600 mb-10 max-w-2xl mx-auto">
+      Astar-Trade empowers African traders by creating a secure, transparent, and growth-focused marketplace. Here’s what makes us stand out:
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <div class="text-green-600 text-3xl mb-4">✅</div>
+        <h3 class="text-xl font-semibold mb-2">Verified Buyers & Sellers</h3>
+        <p class="text-gray-600">We ensure every trader on our platform is vetted for reliability and legitimacy.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <div class="text-green-600 text-3xl mb-4">📊</div>
+        <h3 class="text-xl font-semibold mb-2">Market Insights</h3>
+        <p class="text-gray-600">Stay informed with real-time commodity prices, trends, and export data across Africa.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="bg-white rounded-2xl shadow p-6 hover:shadow-lg transition">
+        <div class="text-green-600 text-3xl mb-4">🔒</div>
+        <h3 class="text-xl font-semibold mb-2">Secure & Transparent</h3>
+        <p class="text-gray-600">We use modern tools to ensure your data and transactions are safe and fully traceable.</p>
+      </div>
+    </div>
+  </div>
+     </section>
+
+     <section id="contact" class="py-16 bg-white">
+  <div class=" mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <p class="text-gray-600 mb-8">
+      Have questions, ideas, or want to start trading? We’d love to hear from you. Fill out the form below or email us directly.
+    </p>
+
+    <!-- Contact Form -->
+    <form class="space-y-6">
+      <div>
+        <input type="text" name="name" placeholder="Your Name"
+               class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500" required>
+      </div>
+      <div>
+        <input type="email" name="email" placeholder="Your Email"
+               class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500" required>
+      </div>
+      <div>
+        <textarea name="message" rows="5" placeholder="Your Message"
+                  class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-500" required></textarea>
+      </div>
+      <div>
+        <button type="submit"
+                class="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-700 transition">
+          Send Message
+        </button>
+      </div>
+    </form>
+
+    <!-- Optional email fallback -->
+    <p class="text-sm text-gray-500 mt-6">
+      Or email us directly at:  
+      <a href="mailto:info@astar-trade.com" class="text-green-600 hover:underline">info@astar-trade.com</a>
+    </p>
+  </div>
+</section>
+
+  
+
+
  </template>
  
  <script setup>
