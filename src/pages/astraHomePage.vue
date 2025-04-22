@@ -221,6 +221,7 @@
  <script setup>
 import { ref, computed } from 'vue'
 import { Swiper, SwiperSlide } from 'swiper/vue'
+import maizeImg from '../assets/maize.jpg'
 import 'swiper/css'
 
 // List of commodities
@@ -228,19 +229,19 @@ import 'swiper/css'
       { 
          name: 'Maize', 
          description: 'A staple crop with great demand across the region.', 
-         image: '../assets/maize.jpg', 
+         image: maizeImg, 
          tradeLink: '/commodity/maize' 
       },
       { 
          name: 'Rice', 
          description: 'High-quality rice for various market segments.', 
-         image: '/public/rice.jpg', 
+         image: '/rice.jpg', 
          tradeLink: '/commodity/rice' 
       },
       { 
          name: 'Soybeans', 
          description: 'Versatile crop used in various industries, from food to biofuel.', 
-         image: '/public/soyabeans.jpg', 
+         image: '/soyabeans.jpg', 
          tradeLink: '/commodity/soybeans' 
       },
       { 
