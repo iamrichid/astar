@@ -36,11 +36,6 @@ const routes = [
         path: 'quotes',
         name: 'Quotes',
         component: QuoteHistory
-      },
-      {
-        path: 'africa-diaspora',
-        name: 'africa-diaspora',
-        component: Diaspora
       }
     ]
   },
