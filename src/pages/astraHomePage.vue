@@ -247,13 +247,13 @@ import 'swiper/css'
       { 
          name: 'Wheat', 
          description: 'Essential crop with global demand, especially for bread making.', 
-         image: '/public/wheat.jpg', 
+         image: '/wheat.jpg', 
          tradeLink: '/commodity/wheat' 
       },
       { 
          name: 'Sugarcane', 
          description: 'Vital for sugar production and biofuel manufacturing.', 
-         image: '/public/sugarcane.jpg', 
+         image: '/sugarcane.jpg', 
          tradeLink: '/commodity/sugarcane' 
       }
       ]
