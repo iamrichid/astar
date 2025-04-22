@@ -56,8 +56,7 @@
   </template>
   
   <script setup>
-  import AfricaDiaspora from '../assets/aaha.webp'
-  import AAHB from '../assets/airport2.webp'
+
 
 
   </script>
