@@ -7,6 +7,7 @@ import QuoteHistory from '../pages/qoutesHistory.vue'
 import AppLayout from '../layouts/AppLayout.vue'
 import AstraLayout from '../layouts/AstraLayout.vue'
 import AstraHomePage from '../pages/astraHomePage.vue'
+import DiasporaHomepage from '../pages/diasporaHomepage.vue'
 
 const routes = [
   {
@@ -47,7 +48,12 @@ const routes = [
         component: AstraHomePage
       }
     ]
-  }
+  },
+  {
+    path: '/diaspora',
+    component: DiasporaHomepage,
+    name: 'Diaspora'
+  },
 ]
 
 const router = createRouter({
